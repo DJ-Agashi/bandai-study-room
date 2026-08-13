@@ -8,3 +8,18 @@ body {
   color: #333;
   background: #f5f3ef;
 }
+header {
+  background: #333;
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
