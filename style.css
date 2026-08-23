@@ -45,3 +45,17 @@ header {
   font-size: 18px;
   margin: 0;
 }
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider img {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.slider img:first-child {
+  display: block;
+}
