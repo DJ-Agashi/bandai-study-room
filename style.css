@@ -60,3 +60,15 @@ header {
 .slider img:first-child {
   display: block;
 }
+@media (max-width: 600px) {
+  .slider {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .slider img {
+    width: 100%;
+  }
+}
