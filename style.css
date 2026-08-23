@@ -24,14 +24,9 @@ header {
   font-weight: bold;
 }
 .hero {
-  height: 500px;
-  background: #555;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  width: 100%;
+  overflow: hidden;
 }
-
 .hero-text {
   color: #fff;
 }
