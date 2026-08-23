@@ -26,6 +26,7 @@ header {
 .hero {
   width: 100%;
   overflow: hidden;
+  padding-top: 10px;
 }
 .hero-text {
   color: #fff;
