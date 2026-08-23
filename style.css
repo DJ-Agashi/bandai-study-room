@@ -42,9 +42,14 @@ header {
 }
 .slider {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   overflow: hidden;
+}
+@media (max-width: 600px) {
+  .slider {
+    max-width: none;
+  }
 }
 .slider img {
   display: none;
