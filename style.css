@@ -42,11 +42,10 @@ header {
 }
 .slider {
   width: 100%;
-  max-width: 900px;
+  max-width: 500px;
   margin: 0 auto;
   overflow: hidden;
 }
-
 .slider img {
   display: none;
   width: 100%;
