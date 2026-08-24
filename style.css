@@ -46,16 +46,26 @@ header {
   max-width: 600px;
   margin: 0 auto;
   overflow: hidden;
+  position: relative;
+  aspect-ratio: 3 / 4;
+}
+.slider {
+  position: relative;
+  overflow: hidden;
 }
 
 .slider img {
-  display: none;
+  display: block;
   width: 100%;
   height: auto;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transition: left 0.6s ease-in-out;
 }
 
 .slider img:first-child {
-  display: block;
+  left: 0;
 }
 @media (max-width: 600px) {
   .slider {
