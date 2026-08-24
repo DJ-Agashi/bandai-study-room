@@ -28,9 +28,16 @@ const slides = document.querySelectorAll('.slider img');
 let current = 0;
 
 setInterval(() => {
-  slides[current].style.display = 'none';
+  slides[current].style.left = '-100%';
+
   current = (current + 1) % slides.length;
-  slides[current].style.display = 'block';
+
+  slides[current].style.left = '100%';
+
+  setTimeout(() => {
+    slides[current].style.left = '0';
+  }, 50);
+
 }, 4000);
 </script>
   
