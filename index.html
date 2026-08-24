@@ -20,6 +20,7 @@
     <img src="images/Slide4.png" alt="アクセス">
     <img src="images/Slide5.png" alt="設備">
     <img src="images/Slide6.png" alt="店舗入口">
+    <img src="images/Slide1.png" alt="万代自習室">
   </div>
 </section>
   
@@ -30,16 +31,28 @@ let current = 0;
 setInterval(() => {
   slides[current].style.left = '-100%';
 
-  current = (current + 1) % slides.length;
+  current++;
 
   slides[current].style.left = '100%';
 
-  setTimeout(() => {
-    slides[current].style.left = '0';
-  }, 50);
+  void slides[current].offsetWidth;
 
+  slides[current].style.left = '0';
+
+  if (current === slides.length - 1) {
+    setTimeout(() => {
+      slides[current].style.transition = 'none';
+      slides[current].style.left = '100%';
+
+      current = 0;
+
+      slides[current].style.transition = 'none';
+      slides[current].style.left = '0';
+
+      void slides[current].offsetWidth;
+
+      slides[current].style.transition = 'left 0.6s ease-in-out';
+    }, 600);
+  }
 }, 3000);
 </script>
-  
-</body>
-</html>
