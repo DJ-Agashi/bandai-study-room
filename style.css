@@ -79,3 +79,23 @@ header {
     font-size: 28px;
   }
 }
+
+.about {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  display: inline-block;
+  background: #e8e5df;
+  padding: 10px 20px;
+  margin: 0 0 30px;
+  font-size: 28px;
+}
+
+.about p {
+  margin: 0 0 20px;
+  line-height: 1.9;
+}
