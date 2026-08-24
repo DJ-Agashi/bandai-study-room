@@ -47,11 +47,7 @@ header {
   margin: 0 auto;
   overflow: hidden;
 }
-@media (max-width: 600px) {
-  .slider {
-    max-width: none;
-  }
-}
+
 .slider img {
   display: none;
   width: 100%;
@@ -65,16 +61,16 @@ header {
   .slider {
     width: 100vw;
     max-width: 100vw;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
   }
 
   .slider img {
-    width: 100%;
+    width: 100vw;
+    max-width: 100vw;
+    height: auto;
   }
-}
-@media (max-width: 600px) {
+
   .logo {
-    font-size: 26px;
+    font-size: 32px;
   }
 }
