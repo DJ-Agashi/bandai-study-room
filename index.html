@@ -22,5 +22,17 @@
     <img src="images/Slide6.png" alt="店舗入口">
   </div>
 </section>
+  
+<script>
+const slides = document.querySelectorAll('.slider img');
+let current = 0;
+
+setInterval(() => {
+  slides[current].style.display = 'none';
+  current = (current + 1) % slides.length;
+  slides[current].style.display = 'block';
+}, 4000);
+</script>
+  
 </body>
 </html>
