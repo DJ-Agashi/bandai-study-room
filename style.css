@@ -221,6 +221,10 @@ header {
   border: 1px solid #ddd;
   text-align: center;
 }
+.price-table td:first-child {
+  text-align: left;
+  padding-left: 30px;
+}
 
 .price-table th {
   background: #e8e5df;
