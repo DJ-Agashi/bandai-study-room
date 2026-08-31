@@ -256,6 +256,55 @@ header {
   height: auto;
   border-radius: 2px;
 }
+/* ご利用上の注意 */
+.notice {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.notice h2 {
+  text-align: center;
+  display: table;
+  margin: 0 auto 35px;
+  background: #e8e5df;
+  padding: 10px 20px;
+  font-size: 28px;
+}
+
+.notice-intro {
+  text-align: center;
+  line-height: 1.9;
+  margin: 0 0 35px;
+}
+
+.notice-list {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 30px;
+}
+
+.notice-item {
+  padding: 0 0 25px;
+  margin: 0 0 25px;
+  border-bottom: 1px solid #ddd;
+}
+
+.notice-item:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.notice-item h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.notice-item p {
+  margin: 0;
+  line-height: 1.9;
+}
 
 @media (max-width: 600px) {
   .slider {
@@ -304,4 +353,19 @@ header {
 
   .gallery h2 {
     font-size: 26px;
+  }
+  .notice {
+    padding: 40px 20px;
+  }
+
+  .notice-list {
+    padding: 25px 20px;
+  }
+
+  .notice-intro {
+    text-align: left;
+  }
+
+  .notice-item h3 {
+    font-size: 18px;
   }
