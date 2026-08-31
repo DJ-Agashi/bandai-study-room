@@ -229,6 +229,40 @@ header {
 .price-table th {
   background: #e8e5df;
 }
+/* 店内の様子 */
+.gallery {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.gallery h2 {
+  text-align: center;
+  display: table;
+  margin: 0 auto 35px;
+  background: #e8e5df;
+  padding: 10px 20px;
+  font-size: 28px;
+}
+
+.gallery-video {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.gallery-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.gallery-caption {
+  margin: 15px 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
 
 @media (max-width: 600px) {
   .slider {
@@ -271,3 +305,10 @@ header {
   padding: 10px 8px;
   font-size: 14px;
 }
+  .gallery {
+    padding: 40px 20px;
+  }
+
+  .gallery h2 {
+    font-size: 26px;
+  }
