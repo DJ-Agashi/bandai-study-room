@@ -305,6 +305,77 @@ header {
   margin: 0;
   line-height: 1.9;
 }
+/* アクセス */
+.access {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.access h2 {
+  text-align: center;
+  display: table;
+  margin: 0 auto 35px;
+  background: #e8e5df;
+  padding: 10px 20px;
+  font-size: 28px;
+}
+
+.access-content {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 30px;
+  align-items: stretch;
+}
+
+.access-info {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 30px;
+}
+
+.access-info h3 {
+  margin: 0 0 25px;
+  font-size: 23px;
+}
+
+.access-info dl {
+  margin: 0;
+}
+
+.access-info dt {
+  font-weight: bold;
+  margin-top: 18px;
+  margin-bottom: 5px;
+}
+
+.access-info dt:first-child {
+  margin-top: 0;
+}
+
+.access-info dd {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.access-info a {
+  color: #333;
+  text-decoration: none;
+}
+
+.access-map {
+  width: 100%;
+  min-height: 350px;
+}
+
+.access-map iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 350px;
+  border: 0;
+}
+
 
 @media (max-width: 600px) {
   .slider {
@@ -368,4 +439,25 @@ header {
 
   .notice-item h3 {
     font-size: 18px;
+  }
+  .access {
+    padding: 40px 20px;
+  }
+
+  .access h2 {
+    font-size: 26px;
+  }
+
+  .access-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .access-info {
+    padding: 25px 20px;
+  }
+
+  .access-map,
+  .access-map iframe {
+    min-height: 300px;
   }
