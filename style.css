@@ -257,13 +257,6 @@ header {
   border-radius: 2px;
 }
 
-.gallery-caption {
-  margin: 15px 0 0;
-  text-align: center;
-  font-size: 14px;
-  color: #666;
-}
-
 @media (max-width: 600px) {
   .slider {
     width: calc(100% - 20px);
