@@ -375,6 +375,68 @@ header {
   min-height: 350px;
   border: 0;
 }
+/* お問い合わせ */
+.contact {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.contact h2 {
+  text-align: center;
+  display: table;
+  margin: 0 auto 25px;
+  background: #e8e5df;
+  padding: 10px 20px;
+  font-size: 28px;
+}
+
+.contact-intro {
+  text-align: center;
+  margin: 0 0 35px;
+  line-height: 1.8;
+}
+
+.contact form {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 30px;
+}
+
+.contact-item {
+  margin-bottom: 25px;
+}
+
+.contact-item label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.contact-item input,
+.contact-item textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.contact-item textarea {
+  resize: vertical;
+}
+
+.contact button {
+  display: block;
+  width: 200px;
+  margin: 10px auto 0;
+  padding: 13px;
+  border: none;
+  background: #333;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
 
 
 @media (max-width: 600px) {
