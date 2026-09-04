@@ -437,6 +437,47 @@ header {
   font-size: 16px;
   cursor: pointer;
 }
+/* お知らせ */
+.news {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.news h2 {
+  text-align: center;
+  display: table;
+  margin: 0 auto 35px;
+  background: #e8e5df;
+  padding: 10px 20px;
+  font-size: 28px;
+}
+
+.news-list {
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.news-item {
+  display: flex;
+  gap: 25px;
+  padding: 20px 25px;
+  border-bottom: 1px solid #ddd;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-item time {
+  white-space: nowrap;
+  color: #666;
+}
+
+.news-item p {
+  margin: 0;
+  line-height: 1.7;
+}
 
 
 @media (max-width: 600px) {
